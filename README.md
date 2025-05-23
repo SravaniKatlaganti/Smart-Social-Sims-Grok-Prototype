@@ -28,23 +28,6 @@ No external dependencies required—just vanilla JavaScript.
 - **Speed Slider**: Adjusts speed from 0.5x (slower) to 2x (faster). The current speed is displayed next to the slider.
 - **Canvas**: Visualizes the grid, agents, and their states in real-time.
 
-## File Tree
-smart-social-sims/
-├── index.html              # Main entry point (HTML with canvas and controls)
-├── README.md               # Project overview and instructions
-├── /css
-│   └── styles.css          # Styling for canvas, HUD, and controls
-├── /js
-│   ├── main.js             # Bootstraps the game, handles loop, pause/resume, and speed
-│   ├── world.js            # Grid world and canvas drawing
-│   ├── agent.js            # Agent class with behaviors and updates
-│   ├── memory.js           # Simple memory store for interactions
-│   └── pathfinding.js      # A* pathfinding with obstacle handling
-└── /assets
-├── npc-blue.png        # Blue NPC sprite (placeholder)
-├── npc-red.png         # Red NPC sprite (placeholder)
-└── tiles.png           # Grid tiles (placeholder)
-
 ## How It Works
 - The simulation runs indefinitely until paused.
 - Agents decide to move (via A*) and interact ~every second (scaled by speed).
