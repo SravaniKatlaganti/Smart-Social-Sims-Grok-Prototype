@@ -41,9 +41,9 @@ smart-social-sims/
 │   ├── memory.js           # Simple memory store for interactions
 │   └── pathfinding.js      # A* pathfinding with obstacle handling
 └── /assets
-    ├── npc-blue.png        # Blue NPC sprite (placeholder)
-    ├── npc-red.png         # Red NPC sprite (placeholder)
-    └── tiles.png           # Grid tiles (placeholder)
+├── npc-blue.png        # Blue NPC sprite (placeholder)
+├── npc-red.png         # Red NPC sprite (placeholder)
+└── tiles.png           # Grid tiles (placeholder)
 
 ## How It Works
 - The simulation runs indefinitely until paused.
