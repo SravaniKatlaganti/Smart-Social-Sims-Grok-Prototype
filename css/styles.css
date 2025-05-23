@@ -12,8 +12,24 @@ body {
     background-color: #fff;
 }
 
-#status {
+#status, #clock {
     margin-top: 10px;
+    font-size: 16px;
+    color: #666;
+}
+
+button {
+    margin: 10px 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#speedSlider {
+    width: 150px;
+    margin: 10px;
+}
+
+#speedValue {
     font-size: 16px;
     color: #666;
 }
